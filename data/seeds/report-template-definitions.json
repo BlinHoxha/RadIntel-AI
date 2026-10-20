@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Chest radiography reporting structure",
+    "language": "en",
+    "modality": "DX",
+    "bodyRegion": "Chest",
+    "structure": "Sections: Examination; Findings; Impression. Populate only physician-supplied observations. Preserve negation, laterality, measurements and uncertainty. Leave unknown details incomplete. The radiologist supplies and reviews the impression. No normal-findings boilerplate.",
+    "version": 1
+  },
+  {
+    "name": "Struktura e raportit radiografik të toraksit",
+    "language": "sq",
+    "modality": "DX",
+    "bodyRegion": "Chest",
+    "structure": "Seksionet: Ekzaminimi; Gjetjet; Përfundimi. Përfshini vetëm vëzhgimet e dhëna nga mjeku. Ruani mohimin, anësinë, matjet dhe pasigurinë. Mos plotësoni të dhëna të panjohura. Radiologu shkruan dhe kontrollon përfundimin. Terminologjia kërkon miratim nga radiologu i klinikës.",
+    "version": 1
+  },
+  {
+    "name": "Abdominal CT reporting structure",
+    "language": "en",
+    "modality": "CT",
+    "bodyRegion": "Abdomen",
+    "structure": "Sections: Examination; Findings; Impression. Technique, contrast, comparison and findings may only be included if provided by the physician. Do not infer absent abnormalities, normal organs or clinical conclusions. Preserve the checked observations exactly.",
+    "version": 1
+  },
+  {
+    "name": "Struktura e raportit CT të abdomenit",
+    "language": "sq",
+    "modality": "CT",
+    "bodyRegion": "Abdomen",
+    "structure": "Seksionet: Ekzaminimi; Gjetjet; Përfundimi. Teknika, kontrasti, krahasimi dhe gjetjet përfshihen vetëm kur jepen nga mjeku. Mos shtoni vëzhgime apo përfundime të reja. Ruani saktësisht vëzhgimet e kontrolluara. Terminologjia kërkon miratim nga radiologu i klinikës.",
+    "version": 1
+  }
+]

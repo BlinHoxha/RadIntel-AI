@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../RadIntel.Application/RadIntel.Application.csproj" />
+    <ProjectReference Include="$(FrameworkRoot)/src/Framework.Persistence.PostgreSql/Framework.Persistence.PostgreSql.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design"><PrivateAssets>all</PrivateAssets></PackageReference>
+  </ItemGroup>
+</Project>

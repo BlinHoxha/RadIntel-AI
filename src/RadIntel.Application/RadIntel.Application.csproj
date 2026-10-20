@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../RadIntel.Domain/RadIntel.Domain.csproj" />
+    <ProjectReference Include="../RadIntel.Contracts/RadIntel.Contracts.csproj" />
+    <ProjectReference Include="$(AIFrameworkRoot)/src/AIFramework.Core/AIFramework.Core.csproj" />
+  </ItemGroup>
+</Project>

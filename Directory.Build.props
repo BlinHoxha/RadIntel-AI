@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <FrameworkRoot Condition="'$(FrameworkRoot)' == ''">$(MSBuildThisFileDirectory)..\Framework</FrameworkRoot>
+    <AIFrameworkRoot Condition="'$(AIFrameworkRoot)' == ''">$(MSBuildThisFileDirectory)..\AI-Framework</AIFrameworkRoot>
+  </PropertyGroup>
+</Project>

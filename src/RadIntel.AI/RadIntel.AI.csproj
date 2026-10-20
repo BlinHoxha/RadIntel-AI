@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../RadIntel.Application/RadIntel.Application.csproj" />
+    <ProjectReference Include="$(AIFrameworkRoot)/src/AIFramework.Application/AIFramework.Application.csproj" />
+    <ProjectReference Include="$(AIFrameworkRoot)/src/AIFramework.Local/AIFramework.Local.csproj" />
+    <ProjectReference Include="$(AIFrameworkRoot)/src/AIFramework.Azure/AIFramework.Azure.csproj" />
+  </ItemGroup>
+</Project>

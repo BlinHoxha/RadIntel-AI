@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../RadIntel.Infrastructure/RadIntel.Infrastructure.csproj" />
+    <ProjectReference Include="../RadIntel.AI/RadIntel.AI.csproj" />
+    <ProjectReference Include="../RadIntel.Integrations.Dicom/RadIntel.Integrations.Dicom.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+</Project>
